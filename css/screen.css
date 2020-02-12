@@ -9,6 +9,7 @@ html{
     font-family: "helvetica Neue",Helvetica,Arial,sans-serif;
     color: #111;
     padding:24px 24px 0;
+    scroll-behavior: smooth;
 }
 img {
     border-color: black;
@@ -59,7 +60,18 @@ p,
 ol,
 ul,
 dl,
-table,
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+th{
+    text-align: left;
+}
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
 address,
 figure {
     margin: 0 0 24px;
@@ -114,6 +126,9 @@ a:hover,
 a:focus {
     color: crimson;
 }
+.odd{
+    background-color: whitesmoke;
+}
 /*
     Media Queries
     ---
@@ -141,6 +156,7 @@ a:focus {
     html{
         padding: 48px 48px 24px;
     }
+    
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */

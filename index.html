@@ -22,12 +22,20 @@
 
 
     </head>
-    <header>
-        <h1>Hello world! This is my HTML5 boilerplate.</h1>
-        <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
-    </header>
     <body>
-        <table>
+        <header>
+            <h1>Hello world! This is my HTML5 boilerplate.</h1>
+            <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
+            <nav>
+                <ul>
+                    <li><a href="#heading2">Heading 2</a></li>
+                    <li><a href="#heading3">Heading 3</a></li>
+                    <li><a href="#lists">Lists</a></li>
+                    <li><a href="#table">Table</a></li>
+                </ul>
+            </nav>
+        </header>
+        <table id = "table">
             <tr>
                 <th>country</th>
                 <th>capital</th>
@@ -40,7 +48,7 @@
                 <td>350</td>
                 <td>english</td>
             </tr>
-            <tr>
+            <tr class = "odd">
                 <td>sweden</td>
                 <td>stockholm</td>
                 <td>150</td>
@@ -52,7 +60,7 @@
                 <td>105</td>
                 <td>dutch</td>
             </tr>
-            <tr>    
+            <tr class = "odd">    
                 <td>italie</td>
                 <td>rome</td>
                 <td>350</td>
@@ -64,13 +72,13 @@
             <figcaption>Yawning cat by some photographer</figcaption>
         </figure>
         
-        <h2>
+        <h2 id= "heading2">
             Heading 2
         </h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="test.com">standard link</a> distinctio facilis excepturi, reprehenderit pariatur odit, velit mollitia saepe impedit reiciendis omnis quasi sed, facere quo nobis a blanditiis.
         </p>
-        <h3>
+        <h3 id= "heading3">
             Heading 3
         </h3>
         <p>
@@ -84,7 +92,7 @@
         <h3>
             Styling lists is easy
         </h3>
-        <ul>
+        <ul id = "lists">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolores?</li>
             <li>Consequuntur voluptatum minus veritatis? Reprehenderit maiores quas magni amet doloribus.</li>
             <li>Laboriosam consequatur facere similique necessitatibus, ad aliquam voluptatem accusantium. Eveniet!</li>
